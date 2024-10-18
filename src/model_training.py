@@ -25,8 +25,8 @@ def train_model(x_train, y_train):
     """
     TODO: Train a model using either RandomForestClassifier or XGBClassifier. Comment out the model to be used
     """
-    model = RandomForestClassifier(n_estimators=100, random_state=42)
-    model.fit(x_train, y_train)
+    # model = RandomForestClassifier(n_estimators=100, random_state=42)
+    # model.fit(x_train, y_train)
     
     # TODO: Train the XGBClassifier model
     # model = XGBClassifier(use_label_encoder=False, eval_metric='logloss', enable_categorical=True)
