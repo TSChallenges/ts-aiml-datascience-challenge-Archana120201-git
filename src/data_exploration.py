@@ -10,7 +10,7 @@ def load_data(filepath):
 
 def check_missing_values(df):
     """
-    TODO : Check for missing values in the DataFrame.
+    TODO : Check for missing values in the DatsaFrame.
     """
     print("Missing Values:\n", missing)
 
